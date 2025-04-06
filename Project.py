@@ -77,6 +77,7 @@ df2 = pd.read_csv('dadosUniversdade_limpo.csv')
 
 # %%
 district_options = [{'label': x, 'value': x} for x in df2['DISTRICT'].unique() ]
+major_options = [{'label': x, 'value': x} for x in df2['PROGRAM/MAJOR'].unique()]
 
 
 
